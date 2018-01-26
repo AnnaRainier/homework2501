@@ -2,7 +2,7 @@ var nmap = require('libnmap');
 nmap.nmapLocation = "nmap";
 var http = require('http');
 var exports = module.exports;
-var descr = 'You need to have nmap installed on your server so you could start a scan. Nmap is a tool for discovering open ports on hosts, please enter ip and wait for a few minutes as nmap is processing your scan.\n';
+var descr = 'You need to have nmap installed on your server so you could start a scan. Nmap is a tool for discovering open ports on hosts, please enter ip and wait for a few minutes as nmap is processing your scan. Ports range to scan is 1-1024.\n';
 exports.descr = descr;
 exports.opts = {
     range: [],
