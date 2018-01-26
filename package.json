@@ -1,0 +1,16 @@
+{
+  "name": "node2501",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libnmap": "^0.4.9",
+    "nmap-xml": "0.0.1",
+    "node-nmap": "^4.0.0"
+  }
+}
